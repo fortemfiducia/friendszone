@@ -1,0 +1,151 @@
+.navbar {
+	overflow: hidden;
+	color: #000000;
+	position: fixed;
+	top: 0; /*Position the navbar to the top of the page*/
+	font-family: "Lato", sans-serif;
+	background-color: #000000;
+	opacity: 0.7;
+	width: 70%;
+	padding-left: 15%;
+	padding-right: 15%;
+}
+
+/*For the links inside the navbar*/
+.navbar a {
+	float: left;
+	display: block;
+	color: #FFFFFF;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	display: block;
+	top: 0;
+}
+
+/*Change background when hover over it*/
+.navbar a:hover {
+	background: #DDD;
+	color: black;
+	top: 0;
+}
+
+.header {
+	width: 100%;
+	height: auto;
+	background-color: #000000;
+	margin-top: auto;
+}
+
+.header a {
+	text-decoration: none;
+}
+
+.sidebar {
+	width: 200px;
+	z-index: 1;
+	top: 0;
+	right: 0;
+	overflow-x: hidden;
+	margin-top: 20px;
+	margin-left: 20px;
+	font-family: "Lato", sans-serif;
+	position: scroll;
+	float: right;
+	margin-right: 60px;
+}
+
+.sidebar a {
+	color: #D77D00;
+}
+
+.main {
+	margin-left: 60px;
+	margin-right: 280px;
+	font-family: "Lato", sans-serif;
+	margin-top: 40px;
+}
+
+.main a {
+	color: #D77D00;
+}
+
+.main img {
+	float: left;
+	margin-right: 20px;
+}
+
+.under {
+	height: 200px;
+	width: 100%;
+}
+
+.footer {
+	height: 100px;
+	color: #000000;
+	background-color: #D3D3D3;
+	text-align: center;
+}
+
+h1 {
+	margin-top: 20px;
+	line-height: 1.2;
+	font-weight: bold;
+	letter-spacing: 0;
+	font-style: normal;
+	font-family: Lato;
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 100;
+	/*font-family: 'Comic Sans MS';
+	margin-bottom: 20px;*/
+}
+
+h2 {	
+	color: #FFFFFF;
+	font-family: "Lato", sans-serif;
+	font-weight: normal;
+	font-size: 50px;
+	text-align: center;
+	text-shadow: 2px;
+	margin: 0;
+}
+
+h3 {
+	font-size: larger;
+	margin-bottom: 5px;
+}
+
+h4 {
+	font-size: large;
+	margin-top: 0;
+	margin-bottom: 5px;	
+}
+
+p {
+	font-size: medium;
+
+}
+
+hr {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+ul ol a {
+	font-family: 'Open Sans';
+}
+
+BODY {
+	line-height: 1.6;
+	font-family: 'Open Sans';
+	background-color: #FFFFFF;
+	margin: 0;
+
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
